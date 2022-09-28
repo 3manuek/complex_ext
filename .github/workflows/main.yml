@@ -7,9 +7,9 @@ jobs:
         pg: [15, 14, 13]
     name: 🐘 PostgreSQL ${{ matrix.pg }}
     runs-on: ubuntu-latest
-    container: 
-      image: pgxn/pgxn-tools
-      options: -e AS_USER=postgres
+    container: pgxn/pgxn-tools
+      # image: pgxn/pgxn-tools
+      # options: -e AS_USER=postgres
     steps:
       - name: Start PostgreSQL ${{ matrix.pg }}
         run: pg-start ${{ matrix.pg }}

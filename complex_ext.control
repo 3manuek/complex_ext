@@ -1,0 +1,4 @@
+# complex_ext extension
+comment = 'Manipulate complex data'
+default_version = '0.1'
+relocatable = true

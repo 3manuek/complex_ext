@@ -1,0 +1,9 @@
+log/
+results/
+tmp_check/
+output/
+*.o
+*.so
+*.bc
+dist/
+output/
